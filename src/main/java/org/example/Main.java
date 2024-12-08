@@ -1,28 +1,18 @@
 package org.example;
 
 import org.example.agencia.Agencia;
-import org.example.agencia.agenciaDAO.AgenciaDAO;
-import org.example.agencia.agenciaDAO.AgenciaExistenteException;
-import org.example.agencia.agenciaDAO.AgenciaNaoEncontradaException;
+import org.example.agencia.agenciaDAO.*;
 import org.example.banco.Banco;
-import org.example.banco.bancoDAO.BancoDAO;
-import org.example.banco.bancoDAO.BancoExistenteException;
-import org.example.banco.bancoDAO.BancoNaoEncontradoException;
+import org.example.banco.bancoDAO.*;
 import org.example.cliente.Cliente;
-import org.example.cliente.clienteDAO.ClienteDAO;
-import org.example.cliente.clienteDAO.ClienteExistenteException;
-import org.example.cliente.clienteDAO.ClienteNaoEncontradoException;
+import org.example.cliente.clienteDAO.*;
 import org.example.conexao.FalhaConexaoException;
 import org.example.conta.Conta;
-import org.example.conta.contaDAO.ContaDAO;
-import org.example.conta.contaDAO.ContaExistenteException;
-import org.example.conta.contaDAO.ContaNaoEncontradaException;
+import org.example.conta.contaDAO.*;
 import org.example.contaCliente.ContaClienteDAO;
 import org.example.contaCliente.ContaClienteExistenteException;
-import org.example.contaCliente.ContaClienteNaoEncontradoException;
 
 import java.util.List;
-import java.util.concurrent.Callable;
 
 public class Main {
 
